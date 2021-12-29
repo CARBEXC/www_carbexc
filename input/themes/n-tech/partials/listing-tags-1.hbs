@@ -1,0 +1,41 @@
+{{#each tags}}
+   <li class="card__item">
+      {{#featuredImage}}
+         {{#if url}}
+            <div class="card__image-container">
+               <a href="{{../url}}" class="card__image card__image--large">
+                  <img
+                     src="{{url}}"
+                     {{#if @config.site.responsiveImages}}
+                        {{responsiveImageAttributes 'tagImage' srcset sizes}}
+                     {{/if}}
+                     {{ lazyload "lazy" }}
+                     height="{{height}}"
+                     width="{{width}}"
+                     alt="{{alt}}">
+               </a>
+            </div>
+         {{/if}}
+      {{/featuredImage}}
+
+      <div class="card__content">
+
+         <h2 class="card__title card__title--large">
+            <a href="{{url}}" class="invert">{{name}}</a>
+         </h2>
+         {{#if @config.custom.tagsPostNumber}}
+            <div class="card__meta">
+               {{postsNumber}}
+               {{ translate "tags.post" (math postsNumber '+' 0)}}
+            </div>
+         {{/if}}
+         {{#if @config.custom.tagsDescription}}
+            {{#if description}}
+               <div class="card__text">
+                  <p>{{description}}</p>
+               </div>
+            {{/if}}
+         {{/if}}
+      </div>
+   </li>
+{{/each}}

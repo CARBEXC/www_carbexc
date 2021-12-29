@@ -1,0 +1,101 @@
+/* 
+ * Add your own CSS code for the WYSIWYG editor 
+ */
+
+.ordered-list {
+    counter-reset: listCounter;
+}
+
+.ordered-list li {
+    counter-increment: listCounter;
+    list-style: none;
+    position: relative;
+}
+
+.ordered-list li::before {
+    color: #ec1037;
+    content: counter(listCounter, decimal-leading-zero) ".";
+    font-weight: 600;
+    left: -2rem;
+    position: absolute;
+}
+.post__aside {
+        float: right;
+        margin: 1.6rem 0 1.6rem 3.2rem;
+        max-width: 40%;
+        position: relative;
+        z-index: 1;
+    }
+
+.post__aside > :nth-child(1) {
+    margin: 0;
+}
+
+.post__aside--left {
+        float: left;
+        margin: 1.6rem 3.2rem 1.6rem 0;
+}
+
+
+.btn,
+[type=button],
+[type=submit],
+button {
+    background: #ec1037;
+    border: 1px solid #ec1037;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.08);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font: 400 0.88889rem -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.82397rem;
+    font-weight: 600;
+    padding: 0.53333rem 1.33333rem;
+    vertical-align: middle;
+    text-align: center;   
+    vertical-align: top;
+    will-change: transform; 
+    text-decoration: none;
+}
+
+.btn--white {
+    background: #FFFFFF!important;
+    border-color: #FFFFFF!important;
+    color: #6C6C6F !important;
+}
+
+.btn--yellow {
+    background: #F6C144!important;
+    border-color: #F6C144!important;
+    color: #FFFFFF !important;
+}
+
+.btn--green {
+    background: #69DA58!important;
+    border-color: #69DA58!important;
+    color: #FFFFFF !important;
+}
+
+.btn--gray {
+    background: #6C6C6F!important;
+    border-color: #6C6C6F!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    color: #FFFFFF !important;
+}
+
+.btn--dark {
+    background: #000000!important;
+    border-color: #000000!important;
+    color: #FFFFFF !important;
+}
+
+.btn--outline {
+    background: none!important;
+    border: 2px solid #ec1037!important;
+    -webkit-box-shadow: none;!important;
+    box-shadow: none!important;
+    color: #ec1037!important;
+}

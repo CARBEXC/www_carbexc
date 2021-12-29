@@ -1,0 +1,46 @@
+<div class="site-container">
+
+   <header class="top" id="js-header">
+      <div class="top__inner" id="js-post__progress">
+         <a class="logo" href="{{@website.url}}">
+            {{#if @website.logo}}
+               <img src="{{@website.logo}}" alt="{{@website.name}}">
+            {{else}}
+               {{@website.name}}
+            {{/if}}
+         </a>
+
+         {{#if menus.mainMenu}}
+             {{> menu menus.mainMenu}}
+         {{/if}}
+
+         {{#if @config.custom.createSearchPage}}
+            <div class="search">
+               <div class="search__overlay js-search-overlay">
+                  <form action="{{@website.searchUrl}}" class="search__form">
+                     <input
+                        class="search__input js-search-input"
+                        type="search"
+                        name="{{@config.custom.searchParam}}"
+                        placeholder="{{ translate 'search.placeholder' }}"
+                        aria-label="{{ translate 'search.searchInput' }}"
+                        autofocus="autofocus"/>             
+                     <button class="btn--clean search__submit" aria-label="{{ translate 'search.submit' }}">
+                        <svg aria-hidden="true" focusable="false">
+                           <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#arrow" />
+                        </svg>
+                        <span>{{ translate 'search.submit' }}</button></span>
+                  </form>
+               </div>
+               <button
+                  class="btn--clean search__btn js-search-btn"
+                  aria-label="{{ translate 'search.submit' }}">
+                  <svg role="presentation" focusable="false" height="18" width="18">
+                     <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#search"/>
+                  </svg>
+               </button>
+            </div>
+         {{/if}}
+      
+      </div> 
+   </header>

@@ -1,0 +1,67 @@
+<header class="header" id="js-header">
+   <div class="header__inner {{#checkIf @config.custom.navbarLayout '==' "wide" }} header__inner--wide{{/checkIf}}">
+       
+      <div class="logo">
+         <a class="logo__link" href="{{@website.url}}">
+            {{#if @website.logo}}
+               <img src="{{@website.logo}}" alt="{{@website.name}}">
+            {{else}}
+               {{@website.name}}
+            {{/if}}
+         </a>
+      </div>
+
+      {{#if menus.mainMenu}}
+         {{> menu menus.mainMenu}}
+      {{/if}}
+
+      {{#if @config.custom.createSearchPage}}
+         <div class="search">
+            <div class="search__overlay js-search-overlay">
+               <div class="wrapper search__overlay-inner">
+                  <form action="{{@website.searchUrl}}" class="search__form">
+                     <input
+                        class="search__input js-search-input"
+                        type="search"
+                        name="{{@config.custom.searchParam}}"
+                        placeholder="{{ translate 'search.placeholder' }}" 
+                        aria-label="{{ translate 'search.searchInput' }}"
+                        autofocus="autofocus"/>
+                  </form>
+                  <button
+                     class="search__close js-search-close"
+                     aria-label="{{ translate 'search.close' }}">
+                     {{ translate 'search.close' }}
+                  </button>
+               </div>
+            </div>
+            <button
+               class="search__btn js-search-btn"
+               aria-label="{{ translate 'search.search' }}">
+               <svg role="presentation" focusable="false">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#search"/>
+               </svg>
+            </button>
+         </div>
+      {{/if}}
+
+      {{#checkIf @config.custom.topButton '==' "link"}}
+         <div class="buttons">
+            {{#checkIf @config.custom.topButtonSource '==' "post" }}
+               {{#getPost @config.custom.topButtonPostIndicator}}
+                  <a href="{{url}}" class="btn btn--small btn--outline">{{@config.custom.topButtonName}}</a>
+               {{/getPost}}
+            {{else}}
+               <a href="{{@config.custom.topButtonUrl}}" class="btn btn--small btn--outline" target="_blank" rel="noreferrer nofollow">{{@config.custom.topButtonName}}</a>
+            {{/checkIf}}
+         </div>
+      {{/checkIf}}
+      {{#checkIf @config.custom.topButton '==' "social"}}     
+           {{#if @config.custom.socialButtons}}
+             <div class="buttons__social">
+                {{> social-buttons}}
+             </div>
+           {{/if}}
+      {{/checkIf}}
+   </div>
+</header>

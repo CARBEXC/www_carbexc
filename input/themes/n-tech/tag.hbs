@@ -1,0 +1,80 @@
+{{> head}}
+{{> navbar}}
+<main>
+   {{#if @config.custom.tagAd1}}
+      <div class="ads ads--mt">
+         <div class="wrapper">
+            {{{@config.custom.tagAd1}}}
+         </div>
+      </div>
+   {{/if}}
+   <div class="page page--tag wrapper">
+      <div class="page__title 
+                  {{#checkIf @config.custom.tagSidebar '==' false}}
+                     {{#checkIf @config.custom.tagSidebarContentLayout '==' "centered"}}
+                        page__title--centered
+                     {{/checkIf}}
+                  {{/checkIf}}">
+         {{#tag}}
+            <h1>
+               {{name}}
+               <sup>({{postsNumber}})</sup>
+            </h1>
+            {{#if description}}
+               <p class="page__desc">
+                  {{description}}
+               </p>
+            {{/if}}
+         {{/tag}}
+      </div>
+   </div>
+
+   <div class="wrapper">
+      <div class="container 
+                  {{#if @config.custom.tagSidebar}}container--sidebar{{/if}} 
+                  {{#checkIf @config.custom.tagSidebar '==' false}}
+                     {{#checkIf @config.custom.tagSidebarContentLayout '==' "centered"}}
+                        container--centered
+                     {{/checkIf}}
+                  {{/checkIf}}">
+         <div class="articles {{#if @config.custom.tagSidebar}}is-sidebar{{/if}}">
+           {{#if @config.custom.tagAd2}}
+              <div class="ads ads--mb">
+                 {{{@config.custom.tagAd2}}}                       
+              </div>
+           {{/if}}
+           <div class="articles__inner {{@config.custom.tagLayout}} {{#checkIf @config.custom.tagLayout '==' "articles__inner--layout-3"}}{{@config.custom.tagLayoutColumns}}{{/checkIf}} {{@config.custom.tagLayoutMode}}">
+
+               {{#checkIf @config.custom.tagLayout '==' "articles__inner--layout-1"}}
+                  {{> listing-tag-1}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.tagLayout '==' "articles__inner--layout-2"}}
+                  {{> listing-tag-2}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.tagLayout '==' "articles__inner--layout-3"}}
+                  {{> listing-tag-3}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.tagLayout '==' "articles__inner--layout-4"}}
+                  {{> listing-tag-4}}
+               {{/checkIf}}
+
+            </div>
+            {{> pagination}}
+             
+            {{#if @config.custom.tagAd3}}
+               <div class="ads ads--mt">
+                  {{{@config.custom.tagAd3}}}                       
+               </div>
+            {{/if}}
+             
+         </div>
+         {{#if @config.custom.tagSidebar}}
+            {{> sidebar}}
+         {{/if}}
+      </div>
+   </div>
+</main>
+{{> footer}}

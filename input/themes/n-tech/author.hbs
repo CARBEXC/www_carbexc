@@ -1,0 +1,96 @@
+{{> head}}
+{{> navbar}}
+<main>
+    {{#if @config.custom.authorAd1}}
+      <div class="ads ads--mt">
+         <div class="wrapper">
+            {{{@config.custom.authorAd1}}}
+         </div>
+      </div>
+   {{/if}}
+   <div class="page page--author wrapper">
+      <div class="page__title 
+                  {{#checkIf @config.custom.authorSidebar '==' false}}
+                     {{#checkIf @config.custom.authorSidebarContentLayout '==' "centered"}}
+                        page__title--centered
+                     {{/checkIf}}
+                  {{/checkIf}}">
+         {{#author}}
+            {{#if avatar}}
+               <img  src="{{avatarImage.url}}" 
+                     class="page--author__avatar" 
+                     {{ lazyload "eager" }} 
+                     alt="{{avatarImage.alt}}" 
+                     height="{{avatarImage.height}}" 
+                     width="{{avatarImage.width}}">
+            {{/if}}
+            <h1 class="h2">
+               {{name}}
+               <sup>({{postsNumber}})</sup>
+            </h1>
+            {{#if description}}
+               <p class="page__desc">
+                  {{description}}
+               </p>
+            {{/if}}
+            {{#if website}}
+               <p class="page--author__website">
+                  <svg height="18" width="18" aria-hidden="true" stroke="var(--primary-color)" stroke-width="2">
+                     <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#website"/>
+                  </svg>
+                  <a href="{{website}}" class="invert" target="_blank" rel="nofollow noreferrer noopener">{{ translate 'author.visitWebsite' }}</a>
+               </p>
+            {{/if}}
+         {{/author}}
+      </div>
+   </div>
+
+   <div class="wrapper">
+      <div class="container 
+                  {{#if @config.custom.authorSidebar}}container--sidebar{{/if}}
+                  {{#checkIf @config.custom.authorSidebar '==' false}}
+                     {{#checkIf @config.custom.authorSidebarContentLayout '==' "centered"}}
+                        container--centered
+                     {{/checkIf}}
+                  {{/checkIf}}">
+         <div class="articles {{#if @config.custom.authorSidebar}}is-sidebar{{/if}}">
+             {{#if @config.custom.authorAd2}}
+               <div class="ads ads--mb">
+                  {{{@config.custom.authorAd2}}}                       
+               </div>
+             {{/if}}
+             <div class="articles__inner {{@config.custom.authorLayout}} {{#checkIf @config.custom.authorLayout '==' "articles__inner--layout-3"}}{{@config.custom.authorLayoutColumns}}{{/checkIf}} {{@config.custom.authorLayoutMode}}">
+
+               {{#checkIf @config.custom.authorLayout '==' "articles__inner--layout-1"}}
+                  {{> listing-author-1}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.authorLayout '==' "articles__inner--layout-2"}}
+                  {{> listing-author-2}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.authorLayout '==' "articles__inner--layout-3"}}
+                  {{> listing-author-3}}
+               {{/checkIf}}
+
+               {{#checkIf @config.custom.authorLayout '==' "articles__inner--layout-4"}}
+                  {{> listing-author-4}}
+               {{/checkIf}}
+
+            </div>
+            {{> pagination}}
+             
+            {{#if @config.custom.authorAd3}}
+               <div class="ads ads--mt">
+                  {{{@config.custom.authorAd3}}}                       
+               </div>
+            {{/if}}
+             
+         </div>
+         {{#if @config.custom.authorSidebar}}
+            {{> sidebar}}
+         {{/if}}
+      </div>
+   </div>
+</main>
+{{> footer}}

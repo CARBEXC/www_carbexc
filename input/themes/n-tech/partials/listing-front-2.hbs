@@ -1,0 +1,101 @@
+{{#each posts}}
+   <article class="card__item">
+      {{#if @config.custom.frontFeaturedImage}}
+         {{#featuredImage}}
+            {{#if url}}
+               <div class="card__image-container">
+                  <a href="{{../url}}" {{#unless (showExcerpt @index "2,3" )}}class="card__image" {{else}} class="card__image card__image--large"{{/unless}}>
+                     <img
+                        src="{{url}}"
+                        {{#if @config.site.responsiveImages}}
+                           {{responsiveImageAttributes 'featuredImage' srcset.listing sizes.listing}}
+                        {{/if}}
+                        {{ lazyload "lazy" }}
+                        height="{{height}}"
+                        width="{{width}}"
+                        alt="{{alt}}">
+                  </a>                    
+                  {{#if @config.custom.frontTag}}
+                     {{#if (showExcerpt @index "2,3" )}}
+                        {{#if ../mainTag}}
+                           <a href="{{ ../mainTag.url }}" class="card__maintag">
+                                 {{ ../mainTag.name }}
+                           </a>                    
+                        {{/if}}
+                     {{/if}}
+                  {{/if}}
+               </div>
+            {{/if}}
+         {{/featuredImage}}
+      {{/if}}
+
+      <div class="card__content">
+         <header>
+            <h2 {{#unless (showExcerpt @index "2,3" )}} class="card__title" {{else}} class="card__title  card__title--large"{{/unless}}>
+               <a href="{{url}}" class="invert">{{title}}</a>
+            </h2>
+
+            {{#checkIfAny @config.custom.frontAuthor @config.custom.frontDate}}
+               <div class="card__meta">
+                   
+                   {{#if @config.custom.frontTag}}
+                     {{#featuredImage}}
+                        {{#unless url}}
+                            {{#if ../mainTag}}
+                              <a href="{{ ../mainTag.url }}" class="card__tag">
+                                  {{ ../mainTag.name }}
+                             </a>                    
+                           {{/if}}
+                        {{/unless}}
+                     {{/featuredImage}}
+                  {{/if}}
+
+                  {{#if @config.custom.frontAuthor}}
+                     {{#author}}
+                        <div class="card__author">{{ translate 'post.publishedBy' }}
+                           <a href="{{url}}" class="invert">{{name}}</a>
+                        </div>
+                     {{/author}}
+                  {{/if}}
+
+                  {{#if @config.custom.frontDate}}
+                     <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="feed__date">
+                        {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                           {{date createdAt @config.custom.formatDate}}
+                        {{else}}
+                           {{date createdAt @config.custom.formatDateCustom}}
+                        {{/checkIf}}
+                     </time>
+                  {{/if}}    
+                   
+                   {{#if postViewConfig.displayComments}}
+                     <div class="card__comments">
+                        <svg aria-hidden="true">
+                           <title>{{ translate 'post.comments' }}</title>
+                           <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#comments"/>
+                        </svg>
+                        <a
+                           href="{{url}}#post-comments"
+                           data-disqus-identifier="{{id}}"
+                           class="invert"
+                           rel="nofollow"> 0 </a>
+                     </div>
+                  {{/if}}
+
+               </div>
+            {{/checkIfAny}}
+         </header>
+            {{#if @config.custom.frontExcerpt}}
+         <div class="card__text">
+            {{#if (showExcerpt @index "2,3" )}}
+               {{#if hasCustomExcerpt}}
+                  {{{ excerpt }}}
+               {{else}}
+                  <p>{{{ excerpt }}}</p>
+               {{/if}}
+            {{/if}}
+         </div>
+          {{/if}}
+      </div>
+   </article>
+{{/each}}

@@ -1,0 +1,23 @@
+<div class="newsletter-popup" 
+     {{#if @config.custom.newsletterScroll }} 
+         data-show-on-scroll="{{ @config.custom.newsletterScrollDistance }}" 
+     {{/if}}
+     {{#if @config.custom.newsletterTime }} 
+         data-show-after-time="{{ @config.custom.newsletterTimeLength }}" 
+     {{/if}}>
+  <div class="newsletter-popup__inner">
+      {{#if @config.custom.newsletterImage}}
+         <div class="newsletter-popup__left">
+             <img                                   
+                  src="{{@config.custom.newsletterImage}}"                 
+                  alt="{{@config.custom.newsletterImageAlt}}">         
+         </div>
+      {{/if}}
+      <div class="newsletter-popup__right  {{#if @config.custom.newsletterImage}}is-image{{/if}}">
+         <button class="btn white newsletter-popup__close">&times;</button>
+         <h3>{{ translate 'partials.newsletter.title' }}</h3>
+         <p>{{ translate 'partials.newsletter.description' }}</p>
+         {{{@config.custom.newsletterFormCode}}}
+      </div>
+  </div>
+</div>
