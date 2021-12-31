@@ -18,6 +18,12 @@ you should be able to choose the CARBEXC in your PUBLII
 
 ## requirements
 
-- make sure you have your ssh-key loaded (ssh-add -l)
-- to load: ssh-add ~/.ssh/despiegk
-- instruction https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys 
+- make sure you have your ssh-key loaded
+  - to check do ```ssh-add -l```
+- to load: ```ssh-add ~/.ssh/despiegk```
+  - ofcourse use your name which in my case 
+- to see your public key 
+  - ```cat ~/.ssh/despiegk.pub```
+  - ofcourse don't use my name despiegk, but yours
+- instruction how to add ssh key to github
+    - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys 
