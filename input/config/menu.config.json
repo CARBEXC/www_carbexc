@@ -1,28 +1,151 @@
 [
     {
-        "name": "test menu",
+        "name": "Main Menu",
         "position": "mainMenu",
         "items": [
             {
-                "id": 1640433297118,
-                "label": "This Is Menu 1",
+                "id": 1640852194067,
+                "label": "About Us",
                 "title": "",
-                "type": "post",
+                "type": "separator",
                 "target": "_self",
                 "rel": "",
-                "link": 1,
+                "link": "",
                 "cssClass": "",
                 "isHidden": false,
-                "items": []
+                "items": [
+                    {
+                        "id": 1640874109084,
+                        "label": "Our Team",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 3,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    },
+                    {
+                        "id": 1640874228247,
+                        "label": "The Source Code",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 10,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    },
+                    {
+                        "id": 1640876702380,
+                        "label": "Our Story",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 12,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    }
+                ]
             },
             {
-                "id": 1640436078202,
-                "label": "Menu 2",
+                "id": 1640876398077,
+                "label": "Our Product",
                 "title": "",
-                "type": "tag",
+                "type": "separator",
                 "target": "_self",
                 "rel": "",
-                "link": 1,
+                "link": "",
+                "cssClass": "",
+                "isHidden": false,
+                "items": [
+                    {
+                        "id": 1640876418159,
+                        "label": "Carbon Exchange",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 5,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    },
+                    {
+                        "id": 1640876436926,
+                        "label": "Carbon Forwards",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 6,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    },
+                    {
+                        "id": 1640876552151,
+                        "label": "How It Works",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 11,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1640932451657,
+                "label": "Latest Posts",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "isHidden": false,
+                "items": [
+                    {
+                        "id": 1640932496154,
+                        "label": "Why the World Needs CARBEXC?",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 13,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    },
+                    {
+                        "id": 1640932666086,
+                        "label": "Why existing carbon credit solutions don't cut it?",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 14,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1640852639493,
+                "label": "Join Waitlist",
+                "title": "",
+                "type": "external",
+                "target": "_blank",
+                "rel": "",
+                "link": "https://ejtx0zr7t56.typeform.com/to/VyP2ODz6",
                 "cssClass": "",
                 "isHidden": false,
                 "items": []
@@ -30,29 +153,71 @@
         ]
     },
     {
-        "name": "kkk",
-        "position": "",
+        "name": "Explore",
+        "position": "footerMenu1",
         "items": [
             {
-                "id": 1640436410145,
-                "label": "dsdasd asd",
+                "id": 1640856923607,
+                "label": "Home",
                 "title": "",
-                "type": "internal",
+                "type": "frontpage",
                 "target": "_self",
                 "rel": "",
-                "link": "dd",
+                "link": "empty",
                 "cssClass": "",
                 "isHidden": false,
                 "items": []
             },
             {
-                "id": 1640436419850,
-                "label": "sadasd as",
+                "id": 1640856938003,
+                "label": "Carbon Credit Exchange",
                 "title": "",
-                "type": "internal",
+                "type": "post",
                 "target": "_self",
                 "rel": "",
-                "link": "d",
+                "link": 5,
+                "cssClass": "",
+                "isHidden": false,
+                "items": []
+            },
+            {
+                "id": 1640856948886,
+                "label": "Carbon Credit Futures",
+                "title": "",
+                "type": "post",
+                "target": "_self",
+                "rel": "",
+                "link": 6,
+                "cssClass": "",
+                "isHidden": false,
+                "items": []
+            }
+        ]
+    },
+    {
+        "name": "Company",
+        "position": "footerMenu2",
+        "items": [
+            {
+                "id": 1640856861838,
+                "label": "About Us",
+                "title": "",
+                "type": "post",
+                "target": "_self",
+                "rel": "",
+                "link": 3,
+                "cssClass": "",
+                "isHidden": false,
+                "items": []
+            },
+            {
+                "id": 1640856876289,
+                "label": "Careers",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
                 "cssClass": "",
                 "isHidden": false,
                 "items": []

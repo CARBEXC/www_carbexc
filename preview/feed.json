@@ -1,0 +1,147 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "CARBEXC",
+    "description": "",
+    "home_page_url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview",
+    "feed_url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/feed.json",
+    "user_comment": "",
+    "icon": "file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/website/carbexc-logo.png",
+    "author": {
+        "name": "Kristof"
+    },
+    "items": [
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/why-existing-carbon-credit-solutions-dont-cut-it.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/why-existing-carbon-credit-solutions-dont-cut-it.html",
+            "title": "Why existing carbon credit solutions don&#x27;t cut it?",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-31T08:37:30+02:00",
+            "date_modified": "2021-12-31T08:37:36+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/why-the-world-needs-carbexc.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/why-the-world-needs-carbexc.html",
+            "title": "Why the world needs CARBEXC?",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-31T08:33:51+02:00",
+            "date_modified": "2021-12-31T08:36:31+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/how-it-works.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/how-it-works.html",
+            "title": "How It Works",
+            "summary": "Our platform is currently still being built and will be launched in Q3 of 2022, here is how it will work: Sign up: For your account and create your wallet Simply with passport and selfie. No credit card required. Buy: Carbon Credit spots and futures&hellip;",
+            "content_html": "<p>Our platform is currently still being built and will be launched in Q3 of 2022, here is how it will work:</p>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Sign up: For your account and create your wallet</span>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Simply with passport and selfie. </span></li>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">No credit card required. </span></li>\n</ol>\n</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Buy: Carbon Credit spots and futures</span>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Discover carbon credit opportunities aligned with your goals</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Easy credit card or crypto checkout</span></li>\n</ol>\n</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Share: Your carbon Net-Zero pledge</span>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Share your results with your NFT certificates</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Motivate action around the world by leading the way</span></li>\n</ol>\n</li>\n</ol>",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T16:59:21+02:00",
+            "date_modified": "2021-12-31T08:30:30+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/the-source-code.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/the-source-code.html",
+            "title": "The Source Code",
+            "summary": "The Source Code is an incubator and accelerators that aims to be the conscious digital backbone for humanity. Our focus is on solving three major global issues: CLIMATE CHANGE Our planet is our only home. To take care of it is our utmost priority. Failing&hellip;",
+            "content_html": "<p>The Source Code is an incubator and accelerators that aims to be the conscious digital backbone for humanity. Our focus is on solving three major global issues:</p>\n<p><strong>CLIMATE CHANGE<br></strong><span style=\"font-weight: 400;\">Our planet is our only home.  To take care of it is our utmost priority.  Failing to do so will end in catastrophe.</span></p>\n<p><strong>THE INTERNET IS BROKEN<br></strong><span style=\"font-weight: 400;\">We have become products for unsustainable,  unsecure and unreliable internet monopolies that steal our sovereignty.</span></p>\n<p><strong>EDUCATION<br></strong><span style=\"font-weight: 400;\">If we all had equal access to the same information and knowledge, those left behind would progress much faster.</span></p>\n<p class=\"align-center\">To learn more about The Source Code click here [ADD LINK TO WEBSITE]</p>",
+            "image": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/10/sourcecode.png",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T16:23:23+02:00",
+            "date_modified": "2021-12-31T08:43:07+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-carbon-credit-suppliers.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-carbon-credit-suppliers.html",
+            "title": "For Carbon Credit Suppliers",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T11:17:12+02:00",
+            "date_modified": "2021-12-31T08:24:30+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-investors.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-investors.html",
+            "title": "For Investors",
+            "summary": "CARBEXC allows investors to easily access one of the best performing asset classes in the last three years while contributing to slowing down climate change. An exchange with endless opportunities. As an investor you can use CARBEXC to purchase Carbon Credits and Forwards, to trade&hellip;",
+            "content_html": "<p class=\"msg msg--highlight \">CARBEXC allows investors to easily access one of the best performing asset classes in the last three years while contributing to slowing down climate change.</p>\n<p><em>An exchange with endless opportunities.</em></p>\n<p>As an investor you can use CARBEXC to purchase Carbon Credits and Forwards, to trade them to companies directly on our exchange.</p>\n<p> </p>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/ipad-exchange.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/ipad-exchange-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/ipad-exchange-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/ipad-exchange-md.png 768w\"  alt=\"\" width=\"525\" height=\"662\"></figure>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>Access our exchange filled with useful <br>tools to make sound investment decisions.</p>\n<p> </p>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/exchange.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/exchange-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/exchange-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/8/responsive/exchange-md.png 768w\"  alt=\"\" width=\"852\" height=\"745\"></figure>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>Store your Carbon Credits or Forwards on our mobile self-custodial digital wallet</p>",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T11:17:01+02:00",
+            "date_modified": "2021-12-31T08:59:29+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-companie.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/for-companie.html",
+            "title": "For Companies",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T11:16:56+02:00",
+            "date_modified": "2021-12-30T15:26:00+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-futures.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-futures.html",
+            "title": "Carbon Forwards",
+            "summary": "Carbon Forwards is a visionary new asset class for the Voluntary Carbon Markets (VCM), that enable companies to buy carbon credits of future carbon removal projects. Our focus on carbon removal projects is to increase the impact we have on slowing down climate change. To&hellip;",
+            "content_html": "<p class=\"msg msg--highlight \"><em>Carbon Forwards</em> is a visionary new asset class for the Voluntary Carbon Markets (VCM), that enable companies to buy carbon credits of future carbon removal projects. Our focus on carbon removal projects is to increase the impact we have on slowing down climate change.</p>\n<p>To create Carbon Forwards CARBEXC has developed partnerships and is developing a unique certification process that involves satellite imagery, drones and IoT devices to track the projects.</p>\n<p><span style=\"font-weight: 400;\">Providing ROI while funding carbon removal projects.</span></p>\n<p><span style=\"font-weight: 400;\">Buy, sell and trade carbon credit futures and help organizations making an impact towards the betterment of our planet and our species with high impact nature-based solutions.</span></p>\n<p><i><span style=\"font-weight: 400;\">Not just reducing carbon emissions. No - that’s cutting corners and isn’t enough. We catalyze carbon removal projects, to remove carbon out of the atmosphere for 2x impact.</span></i></p>\n<p><strong>PARTNERSHIPS<br></strong><strong><span style=\"font-weight: 400;\">We are partnering with leaders of carbon removal projects and are always looking for new partners.</span></strong></p>\n<p><strong>Mangroves Blue Carbon with Vlinder</strong></p>\n<figure class=\"post__image post__image--left\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/vlinder.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/vlinder-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/vlinder-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/vlinder-md.png 768w\"  alt=\"\" width=\"251\" height=\"70\"></figure>\n<p>Mangrove forests sequester up to five times more carbon dioxide from the atmosphere than other types of forest.</p>\n<p> </p>\n<p><strong>Hemp Green Carbon with Signara Global Solutions</strong></p>\n<figure class=\"post__image post__image--left\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/signara-2.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/signara-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/signara-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/signara-2-md.png 768w\"  alt=\"\" width=\"246\" height=\"121\"></figure>\n<p><br>Hemp is one of the fastest converting CO2-to-biomass tools available today; proved more efficient than agro-forestry (European Industrial Hemp Association)</p>\n<p> </p>\n<p><strong>Educating Children with </strong><strong>Take Action Global</strong></p>\n<figure class=\"post__image post__image--left\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/tag.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/tag-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/tag-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/6/responsive/tag-md.png 768w\"  alt=\"\" width=\"222\" height=\"94\"></figure>\n<p><br>Over two million children are earning carbon credits by learning and then teaching about harvesting carbon.</p>\n<p> </p>\n<p><strong>CERTIFICATION<br></strong><span style=\"font-weight: 400;\">Providing legitimacy, trading liquidity and funding opportunities to carbon removal projects</span></p>\n<p><i><span style=\"font-weight: 400;\">Carbon Removal projects are strenuous for suppliers to deliver. They are scarce and overlooked because <span style=\"text-decoration: underline;\">of</span> their relative difficulty. </span></i></p>\n<p>Our certification process is being developed with transparency, accuracy and the latest technologies. </p>\n<p>Our objective is to offer project developers or farmers the ability to track their land and projects via their phone and will offer buyers aggregated data taken from satellite imagery, drones and IoT devices.</p>\n<p class=\"align-center\">Are you a potential supplier of carbon credits.</p>\n<p class=\"align-center\"><a href=\"#INTERNAL_LINK#/post/null\" title=\"https://ejtx0zr7t56.typeform.com/to/VyP2ODz6\">Join Our Waitlist</a></p>",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T11:16:50+02:00",
+            "date_modified": "2021-12-31T08:24:36+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-exchange.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-exchange.html",
+            "title": "Carbon Exchange",
+            "summary": " A Carbon Credit Exchange solution with a digital wallet, carbon credit tokens and a marketplace webshop. Since day one our missions has been to use the power of Decentralized Finance (DEFI) to empower everyone to save our planet. 1 - Trustworthy 2 - Easy&hellip;",
+            "content_html": "<figure class=\"post__image post__image--left\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/phone-leaf.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-md.png 768w\"  alt=\"\" width=\"852\" height=\"745\"></figure>\n<p><span style=\"font-weight: 400;\">A Carbon Credit Exchange solution with a digital wallet, carbon credit tokens and a marketplace webshop. </span></p>\n<p>Since day one our missions has been to use the power of Decentralized Finance (DEFI) to empower everyone to save our planet.</p>\n<p> </p>\n<p> </p>\n<p><span style=\"font-weight: 400;\">1 - Trustworthy</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Tokenized carbon credits</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Blockchain-based settlement</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Non-custodial mobile wallet and client side bidding</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">2 - Easy and accessible</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fast credit card checkout</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Instant settlement</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Transferable &amp; tradable digital token</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">3 - Quality and Impact</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">CARBEXC certified carbon credit forwards</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">All VCS-certified carbon credits</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Carbon credit offset on demand</span></li>\n</ul>\n<h2>Exchange Platform</h2>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/ipad-exchange-2.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-md.png 768w\"  alt=\"\" width=\"525\" height=\"662\"></figure>\n<p> </p>\n<p>Our simple exchange interface allows anyone to easily understand and participate in the exchange of carbon credits and futures.</p>\n<h2> </h2>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<h2>Digital Wallet</h2>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/exchange-2.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-md.png 768w\"  alt=\"\" width=\"852\" height=\"745\"></figure>\n<p> </p>\n<p>Store all your carbon credits or forwards on our non-custodial digital wallet.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<h2>Marketplace Webshop</h2>\n<p> </p>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/desktop-exchange-3.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-md.png 768w\"  alt=\"\" width=\"800\" height=\"462\"></figure>\n<p> </p>\n<p>Discover new carbon removal projects without having to understand anything about crypto or blockchain and check-out using Credit card, Apple Pay, SEPA or SWIFT.</p>\n<p> </p>\n<p> </p>",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T11:16:44+02:00",
+            "date_modified": "2021-12-31T09:09:13+02:00"
+        },
+        {
+            "id": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbexc.html",
+            "url": "file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbexc.html",
+            "title": "The global carbon exchange for companies to achieve their climate pledge. ",
+            "summary": " TRANSPARENCY &amp; CONFIDENCE On the Carbon Credit Price and the quality of carbon credits. ACCESSIBILITY Easy to understand, simple to sign up and trade and low admission and registration fees. OPPORTUNITY A global integrated carbon credit market with abundant investable instruments, e.g. spots futures&hellip;",
+            "content_html": "<figure class=\"post__image post__image--left\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/ipad-exchange.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/ipad-exchange-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/ipad-exchange-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/ipad-exchange-md.png 768w\"  alt=\"\" width=\"525\" height=\"662\"></figure>\n<p><strong><i>TRANSPARENCY &amp; CONFIDENCE<br></i></strong><i><span style=\"font-weight: 400;\">On the Carbon Credit Price and the quality of carbon credits.</span></i></p>\n<p><i><span style=\"font-weight: 400;\"><strong>ACCESSIBILITY</strong> <br></span></i><i><span style=\"font-weight: 400;\">Easy to understand, simple to sign up and trade and low admission and registration fees.</span></i></p>\n<p><i><span style=\"font-weight: 400;\"><strong>OPPORTUNITY</strong><br></span></i><i><span style=\"font-weight: 400;\">A global integrated carbon credit market with abundant investable instruments, e.g. spots futures and removal.</span></i></p>\n<h2><span style=\"font-weight: 400;\">The Global Carbon Marketplace</span></h2>\n<p><span style=\"font-weight: 400;\">For companies to purchase carbon credits and futures to offset their greenhouse gas (GHG) emissions. <br><br></span><span style=\"font-weight: 400;\">For investors to easily access a new and rapidly growing asset class on a transparent, fast and secure online exchange.  <br><br></span><span style=\"font-weight: 400;\">For suppliers of carbon credits to certify and sell carbon credits and futures and fund carbon credit generating projects.</span></p>\n<h2><strong>THE PROBLEM </strong></h2>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/problem.png\" sizes=\"(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)\" srcset=\"file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/problem-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/problem-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/4/responsive/problem-md.png 768w\"  alt=\"\" width=\"769\" height=\"275\"></figure>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>SCIENCE</strong></p>\n<p><span style=\"font-weight: 400;\">Within the next 2 decades, global temperatures are likely to rise 1.5 degrees Celsius.</span></p>\n<p><span style=\"font-weight: 400;\">The 7 warmest years in the 1880-2020 record have all occurred since 2014.</span></p>\n</td>\n<td>\n<p><strong>PEOPLE</strong></p>\n<p><span style=\"font-weight: 400;\">800 million people are vulnerable to climate change impacts, such as droughts, floods, heat waves, extreme weather events and rising sea-levels (</span><a href=\"https://www.un.org/en/climatechange/why-2022-will-matter-climate-action-0\"><span style=\"font-weight: 400;\">UN, 2021</span></a><span style=\"font-weight: 400;\">).</span></p>\n</td>\n<td>\n<p><strong>BIODIVERSITY</strong></p>\n<p><span style=\"font-weight: 400;\">More than 1 million species are at risk of extinction by climate change (</span><a href=\"https://www.nationalgeographic.com/environment/article/ipbes-un-biodiversity-report-warns-one-million-species-at-risk\"><span style=\"font-weight: 400;\">National Geographic, May 2019</span></a><span style=\"font-weight: 400;\">). </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<h2>THE OPPORTUNITY</h2>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>CONSUMERS are demanding accountability </strong></p>\n<p><span style=\"font-weight: 400;\">34% consumers reported having ‘Chosen brands that have environmentally sustainable practices/ values’ (</span><a href=\"https://www2.deloitte.com/uk/en/pages/consumer-business/articles/sustainable-consumer.html\"><span style=\"font-weight: 400;\">Deloitte, Mar 2021</span></a><span style=\"font-weight: 400;\">).</span></p>\n</td>\n<td>\n<p><strong>BUSINESSES’ demand for carbon Net-Zero solutions is exploding</strong></p>\n<p><span style=\"font-weight: 400;\">6x companies joined The Climate Pledge for Net-Zero in 2021 (</span><a href=\"https://www.theclimatepledge.com/us/en/Signatories\"><span style=\"font-weight: 400;\">The Climate Pledge, Dec 2021</span></a><span style=\"font-weight: 400;\">)</span></p>\n</td>\n<td>\n<p><strong>GOVERNMENTS are enforcing climate change actions</strong></p>\n<p><span style=\"font-weight: 400;\">The EU, US, China, India and other governments are implementing climate accountability legislation (</span><a href=\"https://ec.europa.eu/clima/eu-action/european-green-deal/european-climate-law_en\"><span style=\"font-weight: 400;\">European Commision 2021</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/\"><span style=\"font-weight: 400;\">The White House, January 2021</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://www.reuters.com/business/cop/china-submits-updated-climate-pledges-united-nations-2021-10-28/\"><span style=\"font-weight: 400;\">Reuters, October 2021</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://www.bbc.com/news/world-asia-india-59125143\"><span style=\"font-weight: 400;\">BBC, November 2021</span></a><span style=\"font-weight: 400;\">)</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p class=\"align-center\">Want to lead the way on fighting climate change?<br>Join Our Waitlist</p>",
+            "author": {
+                "name": "Kristof"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-12-30T10:34:06+02:00",
+            "date_modified": "2021-12-31T09:14:38+02:00"
+        }
+    ]
+}

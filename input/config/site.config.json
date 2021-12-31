@@ -1,6 +1,6 @@
 {
     "uuid": "uuid-1640432254093-605146203",
-    "name": "www_carbexc",
+    "name": "carbexc",
     "displayName": "CARBEXC",
     "synced": false,
     "logo": {
@@ -197,5 +197,5 @@
             "outputDirectory": ""
         }
     },
-    "theme": "n-tech"
+    "theme": "lignes"
 }
