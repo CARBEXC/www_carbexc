@@ -43,7 +43,7 @@
         "cardsMainTag": true,
         "cardsAuthor": true,
         "cardsDate": true,
-        "colorScheme": "auto",
+        "colorScheme": "light",
         "whiteLightColor": "#FFFFFF",
         "blackLightColor": "#000000",
         "darkLightColor": "#161616",
