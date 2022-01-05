@@ -2,12 +2,12 @@
     "uuid": "uuid-1640432254093-605146203",
     "name": "carbexc",
     "displayName": "CARBEXC",
-    "synced": false,
+    "synced": "synced",
     "logo": {
         "color": 1,
         "icon": "web-pizza"
     },
-    "domain": "",
+    "domain": "https://carbexc.github.io/www_carbexc",
     "language": "en",
     "spellchecking": true,
     "advanced": {
@@ -146,7 +146,7 @@
         }
     },
     "deployment": {
-        "protocol": "",
+        "protocol": "github-pages",
         "relativeUrls": false,
         "port": "",
         "server": "",
@@ -166,14 +166,15 @@
             "bucket": "",
             "region": "",
             "prefix": "",
-            "acl": "public-read"
+            "acl": "public-read",
+            "removeFiles": false
         },
         "github": {
             "server": "api.github.com",
-            "user": "",
-            "repo": "",
-            "branch": "",
-            "token": "",
+            "user": "CARBEXC",
+            "repo": "www_carbexc",
+            "branch": "master",
+            "token": "publii-gh-token uuid-1640432254093-605146203",
             "parallelOperations": 1,
             "apiRateLimiting": 1
         },
@@ -197,5 +198,6 @@
             "outputDirectory": ""
         }
     },
-    "theme": "lignes"
+    "theme": "lignes",
+    "syncDate": 1641117755637
 }

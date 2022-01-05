@@ -3,7 +3,7 @@
     <title>CARBEXC</title>
     <link href="file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/feed.xml" rel="self" />
     <link href="file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview" />
-    <updated>2021-12-31T16:21:42+02:00</updated>
+    <updated>2022-01-05T10:34:20+02:00</updated>
     <author>
         <name>Kristof</name>
     </author>
@@ -272,7 +272,7 @@
         <link href="file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-exchange.html"/>
         <id>file:////Users/lucacosivi/Documents/Publii/sites/carbexc/preview/carbon-exchange.html</id>
 
-        <updated>2021-12-31T09:09:13+02:00</updated>
+        <updated>2022-01-05T10:34:20+02:00</updated>
             <summary>
                 <![CDATA[
                      A Carbon Credit Exchange solution with a digital wallet, carbon credit tokens and a marketplace webshop. Since day one our missions has been to use the power of Decentralized Finance (DEFI) to empower everyone to save our planet. 1 - Trustworthy 2 - Easy&hellip;
@@ -280,51 +280,47 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image post__image--left"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/phone-leaf.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/phone-leaf-md.png 768w"  alt="" width="852" height="745"></figure>
+                <figure class="post__image post__image--center"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/CEXAsset-11.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-11-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-11-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-11-md.png 768w"  alt="" width="4000" height="1888"></figure>
 <p><span style="font-weight: 400;">A Carbon Credit Exchange solution with a digital wallet, carbon credit tokens and a marketplace webshop. </span></p>
 <p>Since day one our missions has been to use the power of Decentralized Finance (DEFI) to empower everyone to save our planet.</p>
-<p> </p>
-<p> </p>
-<p><span style="font-weight: 400;">1 - Trustworthy</span></p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">
+<p><strong>1 - Trustworthy</strong></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tokenized carbon credits</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Blockchain-based settlement</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Non-custodial mobile wallet and client side bidding</span></li>
 </ul>
-<p><span style="font-weight: 400;">2 - Easy and accessible</span></p>
+</td>
+<td style="width: 33.3333%;">
+<p><span style="font-weight: 400;"><strong>2 - Easy and accessible</strong></span></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Fast credit card checkout</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Instant settlement</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Transferable &amp; tradable digital token</span></li>
 </ul>
-<p><span style="font-weight: 400;">3 - Quality and Impact</span></p>
+</td>
+<td style="width: 33.3333%;">
+<p><strong>3 - Quality and Impact</strong></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">CARBEXC certified carbon credit forwards</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">All VCS-certified carbon credits</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Carbon credit offset on demand</span></li>
 </ul>
+</td>
+</tr>
+</tbody>
+</table>
 <h2>Exchange Platform</h2>
-<figure class="post__image post__image--right"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/ipad-exchange-2.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/ipad-exchange-2-md.png 768w"  alt="" width="525" height="662"></figure>
-<p> </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/CEXAsset-19.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-19-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-19-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-19-md.png 768w"  alt="" width="560" height="592"></figure>
 <p>Our simple exchange interface allows anyone to easily understand and participate in the exchange of carbon credits and futures.</p>
-<h2> </h2>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
 <h2>Digital Wallet</h2>
-<figure class="post__image post__image--right"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/exchange-2.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/exchange-2-md.png 768w"  alt="" width="852" height="745"></figure>
-<p> </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/CEXAsset-15-2.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-15-2-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-15-2-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/CEXAsset-15-2-md.png 768w"  alt="" width="582" height="521"></figure>
 <p>Store all your carbon credits or forwards on our non-custodial digital wallet.</p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
 <h2>Marketplace Webshop</h2>
-<p> </p>
-<figure class="post__image post__image--right"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/desktop-exchange-3.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-md.png 768w"  alt="" width="800" height="462"></figure>
-<p> </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/desktop-exchange-3.png" sizes="(min-width: 1260px) calc(3.22vw + 703px), (min-width: 900px) calc(50.59vw + 116px), (min-width: 840px) calc(5vw + 684px), calc(85.58vw + 23px)" srcset="file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-xs.png 320w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-sm.png 480w ,file:///Users/lucacosivi/Documents/Publii/sites/carbexc/preview/media/posts/5/responsive/desktop-exchange-3-md.png 768w"  alt="" width="594" height="343"></figure>
 <p>Discover new carbon removal projects without having to understand anything about crypto or blockchain and check-out using Credit card, Apple Pay, SEPA or SWIFT.</p>
 <p> </p>
 <p> </p>
