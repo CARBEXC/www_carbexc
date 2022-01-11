@@ -1,0 +1,82 @@
+{{> head}}
+{{> navbar}}
+<main class="main page page__author">
+   <div class="highlighted">
+      {{#author}}
+         <header class="highlighted__header page--author__header">
+            {{#if avatar}}
+               <img
+                  src="{{avatar}}"
+                  {{ lazyload "eager" }}
+                  class="page--author__avatar"
+                  alt="{{name}}">
+            {{/if}}
+            <div>
+               <h1 class="highlighted__title">{{name}}</h1>
+               {{#if description}}
+                  <p class="highlighted__text">{{description}}</p>
+               {{/if}}
+               {{#if website}}
+                  <p class="page--author__website">
+                     <svg height="24" width="24" fill="var(--dark)" aria-hidden="true">
+                        <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#website"/>
+                     </svg>
+                     <a href="{{website}}" target="_blank" rel="nofollow noreferrer noopener">{{ translate 'author.visitWebsite' }}</a>
+                  </p>
+               {{/if}} 
+            </div>
+         </header>
+      {{/author}}
+	</div>
+
+   <div class="l-grid">
+      {{#each posts}}
+         <article class="c-card c-card--compact">
+            <header class="c-card__body">
+               <h2 class="c-card__title  c-card__title--compact">
+                  <a href="{{url}}">{{title}}
+                  </a>
+               </h2>
+               {{#checkIfAny @config.custom.cardsMainTag @config.custom.cardsDate}}
+                  <div class="metadata c-card__metadata c-card__metadata--compact">
+                     {{#if @config.custom.cardsMainTag}}
+                        {{#if mainTag}}
+                           <a href="{{mainTag.url}}" class="metadata__maintag">{{ mainTag.name }}</a>
+                        {{/if}}
+                     {{/if}}
+                     {{#if @config.custom.cardsDate}}
+                        <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                           {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                              {{date createdAt @config.custom.formatDate}}
+                           {{else}}
+                              {{date createdAt @config.custom.formatDateCustom}}
+                           {{/checkIf}}
+                        </time>
+                     {{/if}}
+                  </div>
+               {{/checkIfAny}}
+            </header>
+            {{#featuredImage}}
+               {{#if url}}
+                  <figure class="c-card__image c-card__image--compact is-img-loading">
+                     <a href="{{../url}}">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'featuredImage' srcset.l-cards sizes.l-cards}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  </figure>
+               {{/if}}
+            {{/featuredImage}}
+         </article>
+      {{/each}}
+      {{> pagination}}
+   </div>
+
+</main>
+{{> footer}}

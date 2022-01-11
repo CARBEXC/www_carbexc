@@ -1,0 +1,308 @@
+{{> head}}
+{{> navbar}}
+{{#checkIf @config.custom.frontSource '==' "post" }}
+   {{> frontpage-post}}
+{{else}}
+   <main class="main main--splitted">
+      {{#if @renderer.isFirstPage}}
+         {{#checkIf @config.custom.slider '==' true }}
+            <div class="section featured">
+               {{#checkIf @config.custom.sliderSource '==' "tag" }}
+                  <div class="featured__slider">
+                     <div class="featured__viewport" aria-roledescription="carousel" aria-label="{{ translate 'common.featuredPosts' }}">
+                        <div class="featured__container" {{#checkIf @config.custom.sliderAutoplay '==' true}}aria-live="off"{{else}}aria-live="polite"{{/checkIf}}>
+
+                        {{#getPostsByTags (concatenate "count=" @config.custom.sliderItemsAmount "&tag_as=id" "&tags=" @config.custom.sliderIndicator "&excluded=" @config.custom.sliderItemExcluded "&offset=" @config.custom.sliderItemOffset "&orderby=modifiedAt" "&ordering=" @config.custom.sliderItemOrdering)}}
+
+                           <article class="featured__slide" aria-roledescription="slide" aria-label="{{math @index "+" 1}} of {{@config.custom.sliderItemsAmount}}">
+                                 <div class="featured__slide__inner">
+                                    {{#checkIfAny @config.custom.sliderTitle @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}
+                                    <div class="featured__body">                                      
+                                          <header>
+                                             {{#if @config.custom.sliderTitle}}
+                                                {{#checkIf @index '==' 0}}
+                                                   <h1 class="featured__title">
+                                                   {{else}}
+                                                      <h2 class="h1 featured__title">
+                                                      {{/checkIf}}
+                                                      <a href="{{url}}">{{title}}</a>
+                                                      {{#checkIf @index '==' 0}}
+                                                      </h1>
+                                                   {{else}}
+                                                   </h2>
+                                                {{/checkIf}}
+                                             {{/if}}
+
+                                             {{#checkIfAny @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}
+                                                <div class="metadata">
+                                                   {{#if @config.custom.sliderMainTag}}
+                                                      {{#if mainTag}}
+                                                         <a href="{{mainTag.url}}" class="metadata__maintag">{{ mainTag.name }}</a>
+                                                      {{/if}}
+                                                   {{/if}}
+
+                                                   {{#if @config.custom.sliderAuthor}}
+                                                      <a href="{{author.url}}" class="metadata__author">{{author.name}}</a>
+                                                   {{/if}}
+
+                                                   {{#if @config.custom.sliderDate}}
+                                                      <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                                                         {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                                            {{date createdAt @config.custom.formatDate}}
+                                                         {{else}}
+                                                            {{date createdAt @config.custom.formatDateCustom}}
+                                                         {{/checkIf}}
+                                                      </time>
+                                                   {{/if}}
+                                                </div>
+                                             {{/checkIfAny}}
+                                          </header>
+                                       </div>
+                                    {{/checkIfAny}}
+
+                                    {{#featuredImage}}
+                                       {{#if url}}
+                                          <figure class="featured__image {{#checkIfNone @config.custom.sliderTitle @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}featured__image--fullwidth{{/checkIfNone}} is-img-loading">
+                                             <a href="{{../url}}">
+                                                <img
+                                                   src="{{url}}"
+                                                   {{#if @config.site.responsiveImages}}
+                                                      {{responsiveImageAttributes 'featuredImage' srcset.slider sizes.slider}}
+                                                   {{/if}}
+                                                   {{#checkIf @index '==' 0}}
+                                                      {{ lazyload "eager" }}
+                                                   {{else}}
+                                                      {{ lazyload "lazy" }}
+                                                   {{/checkIf}}
+                                                   height="{{height}}"
+                                                   width="{{width}}"
+                                                   alt="{{alt}}">
+                                             </a>
+                                          </figure>
+                                       {{/if}}
+                                    {{/featuredImage}}
+                                 </div>
+                              </article>
+
+                           {{/getPostsByTags}}
+
+                        </div>
+                     </div>
+                     {{#if @config.custom.sliderProgressBar}}
+                        <div class="featured__progress" aria-hidden="true">
+                           <div class="featured__progress__bar"></div>
+                        </div>
+                     {{/if}}
+                     {{#if @config.custom.sliderCounter}}
+                        <div class="featured__counter" aria-hidden="true">
+                           <span class="featured__counter__current">1</span>
+                           <span class="featured__counter__divider">/</span>
+                           <span class="featured__counter__total">-</span>
+                        </div>
+                     {{/if}}
+                  </div>
+               {{else}}
+                  <div class="featured__slider">
+                     <div class="featured__viewport" aria-roledescription="carousel" aria-label="{{ translate 'common.featuredPosts' }}">
+                        <div class="featured__container" {{#checkIf @config.custom.sliderAutoplay '==' true}}aria-live="off"{{else}}aria-live="polite"{{/checkIf}}>
+
+                           {{#each featuredPosts}}
+                              {{#checkIf @index '<' @config.custom.sliderItemsAmount}}
+
+                                 <article class="featured__slide" aria-roledescription="slide" aria-label="{{math @index "+" 1}} of {{@config.custom.sliderItemsAmount}}">
+                                    <div class="featured__slide__inner">
+                                       {{#checkIfAny @config.custom.sliderTitle @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}
+                                       <div class="featured__body">
+                                          <header class="slider__text">
+                                             {{#if @config.custom.sliderTitle}}
+                                                {{#checkIf @index '==' 0}}
+                                                   <h1 class="featured__title">
+                                                   {{else}}
+                                                      <h2 class="h1 featured__title">
+                                                      {{/checkIf}}
+                                                      <a href="{{url}}">{{title}}</a>
+                                                      {{#checkIf @index '==' 0}}
+                                                      </h1>
+                                                   {{else}}
+                                                   </h2>
+                                                {{/checkIf}}
+                                             {{/if}}
+                                             {{#checkIfAny @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}
+                                                <div class="metadata">
+                                                   {{#if @config.custom.sliderMainTag}}
+                                                      {{#if mainTag}}
+                                                         <a href="{{mainTag.url}}" class="metadata__maintag">{{ mainTag.name }}</a>
+                                                      {{/if}}
+                                                   {{/if}}
+                                                   {{#if @config.custom.sliderAuthor}}
+                                                      <a href="{{author.url}}" class="metadata__author">{{author.name}}</a>
+                                                   {{/if}}
+                                                   {{#if @config.custom.sliderDate}}
+                                                      <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                                                         {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                                            {{date createdAt @config.custom.formatDate}}
+                                                         {{else}}
+                                                            {{date createdAt @config.custom.formatDateCustom}}
+                                                         {{/checkIf}}
+                                                      </time>
+                                                   {{/if}}
+                                                </div>
+                                             {{/checkIfAny}}
+                                          </header>
+                                       </div>
+                                       {{/checkIfAny}}
+
+                                       {{#featuredImage}}
+                                          {{#if url}}
+                                             <figure class="featured__image {{#checkIfNone @config.custom.sliderTitle @config.custom.sliderMainTag @config.custom.sliderAuthor @config.custom.sliderDate}}featured__image--fullwidth{{/checkIfNone}} is-img-loading">
+                                                <a href="{{../url}}">
+                                                   <img
+                                                      src="{{url}}"
+                                                      {{#if @config.site.responsiveImages}}
+                                                         {{responsiveImageAttributes 'featuredImage' srcset.slider sizes.slider}}
+                                                      {{/if}}
+                                                      {{#checkIf @index '==' 0}}
+                                                         {{ lazyload "eager" }}
+                                                      {{else}}
+                                                         {{ lazyload "lazy" }}
+                                                      {{/checkIf}}
+                                                      height="{{height}}"
+                                                      width="{{width}}"
+                                                      alt="{{alt}}">
+                                                   </a>
+                                             </figure>
+                                          {{/if}}
+                                       {{/featuredImage}}
+                                    </div>
+                                 </article>
+
+                              {{/checkIf}}
+                           {{/each}}
+                        </div>
+                     </div>
+                     {{#if @config.custom.sliderProgressBar}}
+                        <div class="featured__progress" aria-hidden="true">
+                           <div class="featured__progress__bar"></div>
+                        </div>
+                     {{/if}}
+                     {{#if @config.custom.sliderCounter}}
+                        <div class="featured__counter" aria-hidden="true">
+                           <span class="featured__counter__current">1</span>
+                           <span class="featured__counter__divider">/</span>
+                           <span class="featured__counter__total">-</span>
+                        </div>
+                     {{/if}}
+
+                  </div>
+               {{/checkIf}}
+            </div>
+         {{/checkIf}}
+      {{/if}}
+      <div class="main__left main--splitted__left">
+         <h2 class="main__heading">{{ translate 'common.news' }}</h2>
+         {{#each posts}}
+            {{#checkIf @index '==' 0}}
+               <article class="highlighted">
+                  <header class="highlighted__header">
+                     <h3 class="h1 highlighted__title">
+                        <a href="{{url}}">{{title}}
+                        </a>
+                     </h3>
+                     {{#checkIfAny @config.custom.cardsMainTag @config.custom.cardsAuthor @config.custom.cardsDate}}
+                        <div class="metadata">
+                           {{#if @config.custom.cardsMainTag}}
+                              {{#if mainTag}}
+                                 <a href="{{mainTag.url}}" class="metadata__maintag">{{ mainTag.name }}</a>
+                              {{/if}}
+                           {{/if}}
+                           {{#if @config.custom.cardsAuthor}}
+                              <a href="{{author.url}}" class="metadata__author">{{author.name}}</a>
+                           {{/if}}
+                           {{#if @config.custom.cardsDate}}
+                              <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                                 {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                    {{date createdAt @config.custom.formatDate}}
+                                 {{else}}
+                                    {{date createdAt @config.custom.formatDateCustom}}
+                                 {{/checkIf}}
+                              </time>
+                           {{/if}}
+                        </div>
+                     {{/checkIfAny}}
+                  </header>
+                  {{#featuredImage}}
+                     {{#if url}}
+                        <figure class="highlighted__image is-img-loading">
+                           <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                                 {{responsiveImageAttributes 'featuredImage' srcset.big-news sizes.big-news}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                        </figure>
+                     {{/if}}
+                  {{/featuredImage}}
+               </article>
+            {{/checkIf}}
+         {{/each}}
+      </div>
+
+      <div class="main__right">
+         {{#each posts}}
+            {{#checkIf @index '>' 0}}
+               <article class="c-card">
+                  <header class="c-card__body">
+                     <h3 class="h2 c-card__title">
+                        <a href="{{url}}">{{title}}
+                        </a>
+                     </h3>
+                     {{#checkIfAny @config.custom.cardsMainTag @config.custom.cardsAuthor @config.custom.cardsDate}}
+                        <div class="metadata c-card__metadata">
+                           {{#if @config.custom.cardsMainTag}}
+                              {{#if mainTag}}
+                                 <a href="{{mainTag.url}}" class="metadata__maintag">{{ mainTag.name }}</a>
+                              {{/if}}
+                           {{/if}}
+                           {{#if @config.custom.cardsAuthor}}
+                              <a href="{{author.url}}" class="metadata__author">{{author.name}}</a>
+                           {{/if}}
+                           {{#if @config.custom.cardsDate}}
+                              <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                                 {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                    {{date createdAt @config.custom.formatDate}}
+                                 {{else}}
+                                    {{date createdAt @config.custom.formatDateCustom}}
+                                 {{/checkIf}}
+                              </time>
+                           {{/if}}
+                        </div>
+                     {{/checkIfAny}}
+                  </header>
+                  {{#featuredImage}}
+                     {{#if url}}
+                        <figure class="c-card__image is-img-loading">
+                           <a href="{{../url}}">
+                              <img
+                                 src="{{url}}"
+                                 {{#if @config.site.responsiveImages}}
+                                    {{responsiveImageAttributes 'featuredImage' srcset.s-cards sizes.s-cards}}
+                                 {{/if}}
+                                 {{ lazyload "lazy" }}
+                                 height="{{height}}"
+                                 width="{{width}}"
+                                 alt="{{alt}}">
+                           </a>
+                        </figure>
+                     {{/if}}
+                  {{/featuredImage}}
+               </article>
+            {{/checkIf}}
+         {{/each}}
+         {{> pagination}}
+      </div>
+   </main>
+{{/checkIf}}
+{{> footer}}

@@ -1,0 +1,63 @@
+{{> head}}
+{{> navbar}}
+<main class="main page page--tag">
+   <div class="highlighted">
+      {{#tag}}
+         <header class="highlighted__header">
+            <h1 class="highlighted__title">{{name}}</h1>
+            {{#if description}}
+            <p class="highlighted__text">{{description}}</p>
+            {{/if}}
+         </header>
+      {{/tag}}
+   </div>
+
+   <div class="l-grid">
+      {{#each posts}}
+         <article class="c-card c-card--compact">
+            <header class="c-card__body">
+               <h2 class="c-card__title c-card__title--compact">
+                  <a href="{{url}}">{{title}}
+                  </a>
+               </h2>
+               {{#checkIfAny @config.custom.cardsAuthor @config.custom.cardsDate}}
+                  <div class="metadata c-card__metadata c-card__metadata--compact">
+                     {{#if @config.custom.cardsAuthor}}
+                        <a href="{{author.url}}" class="metadata__author">{{author.name}}</a>
+                     {{/if}}
+                     {{#if @config.custom.cardsDate}}
+                        <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="metadata__date">
+                           {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                              {{date createdAt @config.custom.formatDate}}
+                           {{else}}
+                              {{date createdAt @config.custom.formatDateCustom}}
+                           {{/checkIf}}
+                        </time>
+                     {{/if}}
+                  </div>
+               {{/checkIfAny}}
+            </header>
+            {{#featuredImage}}
+               {{#if url}}
+                  <figure class="c-card__image c-card__image--compact is-img-loading">
+                     <a href="{{../url}}">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'featuredImage' srcset.l-cards sizes.l-cards}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  </figure>
+               {{/if}}
+            {{/featuredImage}}
+         </article>
+      {{/each}}
+      {{> pagination}}
+   </div>
+
+</main>
+{{> footer}}
