@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://carbexc.github.io/www_carbexc/sitemap.xml

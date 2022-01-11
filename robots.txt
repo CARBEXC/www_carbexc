@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: file:///C:\Users\Motion-graphic\Documents\Publii\sites\www_carbexc\preview/sitemap.xml
+Sitemap: https://carbexc.github.io/www_carbexc/sitemap.xml
